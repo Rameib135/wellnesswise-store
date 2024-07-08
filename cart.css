@@ -1,0 +1,118 @@
+#cart table {
+    margin: 0 auto; /* Set left and right margins to auto */
+    width: 120%; /* Set the width of the table */
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #333; /* Border color and width */
+    border-collapse: collapse; /* Collapse border spacing */
+    margin-bottom: 50px;
+}
+  
+  #cart th, #cart td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+      text-align: center;
+  }
+  
+  #cart th {
+      background-color: #f2f2f2;
+  }
+  
+  #cart tbody tr:hover {
+      background-color: #f2f2f2;
+  }
+  
+  #cart tbody tr td:first-child {
+      text-align: center;
+  }
+  
+  #cart tbody tr td:last-child {
+      font-weight: bold;
+  }
+
+  #cart input[type="number"] {
+    width: 50px; /* Adjust the width as needed */
+}
+  
+  button {
+    padding: 10px;
+    background-color: rgb(180, 10, 10);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #7f0f0f;
+  }
+  
+  #purchase-button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #purchase-button button {
+    background-color: #088178;
+  }
+  
+  
+  #purchase-table {
+    margin-top: 20px; /* Adjust the value as needed */
+    padding-top: 60px;
+    width: 20%;
+    border: 2px solid #333; /* Border color and width */
+    border-collapse: collapse; /* Collapse border spacing */
+    margin: 0 auto; /* Set left and right margins to auto */
+  
+  }
+  
+  #total-subtotal {
+    font-weight: bold;
+    color: #333; /* Choose your desired text color */
+    font-size: 18px; /* Choose your desired font size */
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px; /* Add padding to the top and bottom */
+    
+  }
+
+  #purchase-table tr th {
+    padding-top: 15px;
+  }
+
+  @media only screen and (max-width: 428px) {
+    /* כללי CSS שיחולו על מסכים עם רוחב עד 428px (רוחב ניידים כמו ב-iPhone 13 Pro Max) */
+    body {
+        font-size: 14px;
+    }
+    #header .logo {
+        width: 120px; /* כדי להתאים את גודל הלוגו למסך נייד */
+    }
+    #navbar {
+        display: none; /* הסתרת תפריט הניווט במסך נייד */
+    }
+    #mobile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #cart {
+        overflow-x: auto; /* גלילה אופקית עבור עמוד הסל במסך נייד */
+    }
+    #purchase-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #purchase-button button {
+        margin-bottom: 10px;
+    }
+    #cart-add .me {
+        display: none; /* הסתרת תגית ה-Footer במסך נייד */
+    }
+
+}
+  

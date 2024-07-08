@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "supplements-store-web",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "supplements-store-web",
+		"liveServer.settings.port": 5501
+	}
+}
